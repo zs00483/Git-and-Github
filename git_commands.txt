@@ -6,6 +6,6 @@
 6.git commit -m "added testing files"  //S->T
 7.rm testing.py
 8.git restore testing.py  
-9.git remote set-url origin https://token@github.com/zs00483/Git-and-Hithub.git
+9.git remote set-url origin https://token@github.com/zs00483/Git-and-Github.git         //Setting Local files on Remote Git through Url
 10.36 git remote -v
 11.git push origin master
