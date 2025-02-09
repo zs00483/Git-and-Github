@@ -8,6 +8,31 @@
 8.git restore testing.py  
 9.git remote set-url origin https://token@github.com/zs00483/Git-and-Github.git         //Setting Local files on Remote Git through Url
 10. git remote -v
-11. git pull origin master  //To insert code from github
+11. git push origin master  //To insert code into github
 12. git pull origin master  //To get code from github 
-This is some change
+clone-> To get into Local system
+fork->To get repository into your repository
+13. git clone repositoryurl    //To clone git repository into local system
+
+
+        *Branching Concept*
+master->Local system,  main-> Github
+1.git branch        //To identify root branch
+2.git branch dev      //To make new branch(dev) in master
+3.git switch dev  or git checkout dev   //To switch into another branch
+Head->Latest Commit in your Repository
+4.git log     //To get Details about work in repository , 'Q' to exit 
+5.git log --oneline     //To get in 1 line
+6. git push origin dev      //origin->Url   dev-> New branch
+To merge two branch-> Create pull request in base(Master) from compare(dev)
+7.git fetch     //To get all the branch from remote to local system
+dir a;h-> To check hidden files
+          
+          
+          *Hooks*       //To check quality of code in anylanguage before committing
+pip install flake8    //For python
+pending
+
+
+
+
